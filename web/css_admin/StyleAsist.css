@@ -1,0 +1,110 @@
+	   .avisos{
+    display: grid;
+}
+
+.avisos .cards{
+    display: flex;
+}
+
+.avisos .card{
+    color: white;
+    display: grid;
+    margin: 20px;
+    width: 300px;
+    height: 200px;
+    border-radius: 7px;
+    background-color: #003053;
+}
+
+.cronograma {
+    background-color: #00375f;
+    overflow-x: auto;
+    color: white;
+    margin-left: -30px;
+}
+.cronograma th i{
+
+    color: rgb(0, 0, 0);
+}
+
+.cronograma table{
+    width: 100%;
+    margin: 20px;
+}
+
+.cronograma table th{
+    position: sticky;
+    top: 0;
+    height: 10px;
+}
+
+.cronograma table .titulos{
+    background-color: #184463;
+}
+
+.cronograma table, .cronograma th, .cronograma td{
+    border: 1px solid black;
+    border-collapse: separate
+
+}
+
+.cronograma th, td{
+    padding: 10px;
+}
+
+
+.avisos .card .card-body{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 150px;
+    background-color: #52769e;
+    padding: 20px;
+}
+
+.avisos .card .card-body h1{
+    font-size: 40px;
+    width: 100%;
+    text-align: left;
+}
+
+.avisos .card .card-body h3{
+    font-size: 20px;
+}
+
+.avisos .card .card-footer{
+    position: relative;
+    bottom: 3px;
+}
+
+.avisos .card .card-footer .card-link{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.avisos .card .card-footer .card-link{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: .5s;
+}
+
+
+.avisos .card .card-footer .card-link:hover{
+    font-size: 20px;
+    color: #184463;
+}
+
+
+.cards {
+    display: flex; /* Utilizamos flexbox para centrar los elementos horizontalmente */
+    justify-content: center; /* Centramos los elementos horizontalmente */
+    align-items: center; /* Centramos los elementos verticalmente */
+    height: 30vh; /* Esto asegura que la sección ocupe toda la altura de la ventana */
+  }
+  
